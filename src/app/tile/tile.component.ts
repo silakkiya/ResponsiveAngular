@@ -11,10 +11,10 @@ export class TileComponent implements OnInit {
 
   ngOnInit() {
   }
-
+}
   export interface ITile {
     name: string,
     description: string,
     imageURL: string
   }
-}
+
